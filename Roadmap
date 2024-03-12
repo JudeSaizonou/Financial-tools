@@ -1,0 +1,63 @@
+ROADMAP
+
+### Phase 1: Configuration initiale et structure du projet
+
+1. **Configuration de l'environnement de développement :**
+   - Installer Node.js et npm pour React.js.
+   - Installer Python et pip pour FastAPI.
+   - Installer Docker pour la conteneurisation.
+   - Configurer un environnement de développement intégré (IDE) tel que Visual Studio Code.
+
+2. **Initialisation du projet :**
+   - Créer un nouveau projet React.js.
+   - Installer les dépendances nécessaires (React Router, Axios, etc.).
+   - Créer une application FastAPI de base.
+   - Mettre en place la connexion à la base de données PostgreSQL.
+   
+3. **Mise en place de la structure du projet :**
+   - Organiser les dossiers et les fichiers pour une structure propre et maintenable.
+   - Définir les routes API pour les fonctionnalités à venir.
+   - Créer une maquette de l'interface utilisateur pour les différentes fonctionnalités.
+
+### Phase 2: Implémentation des fonctionnalités de base
+
+1. **Authentification utilisateur :**
+   - Mettre en place un système d'inscription et de connexion.
+   - Gérer les sessions utilisateur avec des tokens JWT (JSON Web Tokens).
+   - Stocker les données utilisateur dans la base de données.
+
+2. **Calculateur de taille de position :**
+   - Implémenter l'algorithme de calcul de taille de position.
+   - Créer une interface utilisateur permettant aux utilisateurs de saisir les données nécessaires et de calculer la taille de position.
+
+### Phase 3: Amélioration de l'interface utilisateur et fonctionnalités supplémentaires
+
+1. **Design et UX :**
+   - Utiliser Tailwind CSS pour styliser l'application.
+   - Assurer la responsivité de l'interface pour les différents appareils et résolutions.
+
+2. **Ajout de fonctionnalités supplémentaires :**
+   - Ajouter d'autres outils financiers tels que des calculateurs d'intérêt, de rendement, etc.
+   - Intégrer des graphiques et des visualisations pour représenter les données financières.
+   - Mettre en place des notifications ou des rappels pour les utilisateurs.
+
+### Phase 4: Tests et déploiement
+
+1. **Tests :**
+   - Effectuer des tests unitaires et des tests d'intégration pour assurer la stabilité et la fiabilité de l'application.
+   - Effectuer des tests de validation utilisateur pour garantir une expérience utilisateur fluide.
+
+2. **Déploiement :**
+   - Créer des images Docker pour l'application frontend et backend.
+   - Configurer un service d'hébergement tel que Heroku ou AWS pour déployer l'application.
+   - Mettre en place une base de données PostgreSQL distante pour l'environnement de production.
+
+### Phase 5: Maintenance et itérations
+
+1. **Maintenance :**
+   - Surveiller les performances de l'application et corriger les éventuels bogues ou problèmes de sécurité.
+   - Mettre à jour les dépendances et les bibliothèques pour bénéficier des dernières fonctionnalités et correctifs.
+
+2. **Itérations :**
+   - Recueillir les commentaires des utilisateurs et ajouter de nouvelles fonctionnalités en fonction des besoins.
+   - Optimiser l'application en fonction des retours d'expérience et des performances.
